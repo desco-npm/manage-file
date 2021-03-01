@@ -1,6 +1,6 @@
 {
   "name": "@desco/manage-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Permite manipular o conteúdo de um arquivo",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/manage-file.git"
+    "url": "git+https://github.com/desco-npm/manage-file"
   },
   "keywords": [
     "file",
