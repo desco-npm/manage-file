@@ -1,0 +1,25 @@
+{
+  "name": "@desco/manage-file",
+  "version": "1.0.0",
+  "description": "Permite manipular o conteúdo de um arquivo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eudiasrafael@bitbucket.org/eudiasrafael/manage-file.git"
+  },
+  "keywords": [
+    "file",
+    "manage",
+    "edit",
+    "json"
+  ],
+  "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/eudiasrafael/manage-file#readme",
+  "dependencies": {
+    "fs-plus": "^3.1.1"
+  }
+}
