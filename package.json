@@ -1,7 +1,7 @@
 {
   "name": "@desco/manage-file",
-  "version": "1.0.1",
-  "description": "Permite manipular o conteúdo de um arquivo",
+  "version": "1.0.2",
+  "description": "Package that allows you to change the contents of a file with a single function.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
   ],
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/eudiasrafael/manage-file#readme",
+  "homepage": "https://github.com/desco-npm/manage-file",
   "dependencies": {
     "fs-plus": "^3.1.1"
   }

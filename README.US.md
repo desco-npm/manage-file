@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,48 +9,48 @@
     <td><img src="https://i.ibb.co/74S5zBF/manage-file.png"></td>
     <td>  
       <h1>@desco/manage-file</h1>
-      Pacote que permite alterar o conteúdo de um arquivo com uma única função.
+      Package that allows you to change the contents of a file with a single function.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1?label=Versão&message=1.0.2&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.0.2" src="https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Instalação"></a>
+## 📋 Table of Contents
 
-## ⚙️ Instalação
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+<a name="Installation"></a>
+
+## ⚙️ Installation
 
 ```bash
 npm install --save @desco/manage-file
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-## 📦 Importação
+## 📦 Import
 
 ```js
 const manageFile = require('@desco/manage-file')
@@ -58,23 +58,23 @@ const manageFile = require('@desco/manage-file')
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-## 📚 Como Usar
+## 📚 How to use
 
-### Carrega conteúdo de um arquivo
+### Load contents of a file
 
 ```js
 manageFile.load('./demo_file.txt')
 ```
 
-### Salva novo conteúdo no arquivo (sobrescreve o conteúdo atual)
+### Save new content to the file (overwrite the current content)
 
 ```js
 manageFile.save('./demo_file.txt', 'New Content')
 ```
 
-### Edita o conteúdo atual do arquivo
+### Edit the current content of the file
 
 ```js
 manageFile.edit('./demo_file.txt', content => {
@@ -82,19 +82,19 @@ manageFile.edit('./demo_file.txt', content => {
 })
 ```
 
-### Carrega o JSON presente em um arquivo
+### Load the JSON present in a file
 
 ```js
 manageFile.loadJson('demo_json.json')
 ```
 
-### Salva novo JSON no arquivo (sobrescreve o JSON atual)
+### Save new JSON in the file (overwrite the current JSON)
 
 ```js
 manageFile.saveJson('demo_json.json', { title: 'New Title', })
 ```
 
-### Edita o JSON atual do arquivo
+### Edit the current JSON of the file
 
 ```js
 manageFile.editJson('demo_json.json', json => {
@@ -106,7 +106,7 @@ manageFile.editJson('demo_json.json', json => {
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>
