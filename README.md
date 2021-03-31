@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote que permite alterar o conteúdo de um arquivo com uma única função.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1?label=Versão&message=1.0.2&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.2" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.0.2&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -30,9 +30,9 @@
 
 ## 📋 Tabela de conteúdos
 
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
@@ -53,7 +53,7 @@ npm install --save @desco/manage-file
 ## 📦 Importação
 
 ```js
-const manageFile = require('@desco/manage-file')
+const manageFile = require("@desco/manage-file");
 ```
 
 ---
@@ -65,43 +65,43 @@ const manageFile = require('@desco/manage-file')
 ### Carrega conteúdo de um arquivo
 
 ```js
-manageFile.load('./demo_file.txt')
+manageFile.load("./demo_file.txt");
 ```
 
 ### Salva novo conteúdo no arquivo (sobrescreve o conteúdo atual)
 
 ```js
-manageFile.save('./demo_file.txt', 'New Content')
+manageFile.save("./demo_file.txt", "New Content");
 ```
 
 ### Edita o conteúdo atual do arquivo
 
 ```js
-manageFile.edit('./demo_file.txt', content => {
-    return content.toUpperCase()
-})
+manageFile.edit("./demo_file.txt", (content) => {
+  return content.toUpperCase();
+});
 ```
 
 ### Carrega o JSON presente em um arquivo
 
 ```js
-manageFile.loadJson('demo_json.json')
+manageFile.loadJson("demo_json.json");
 ```
 
 ### Salva novo JSON no arquivo (sobrescreve o JSON atual)
 
 ```js
-manageFile.saveJson('demo_json.json', { title: 'New Title', })
+manageFile.saveJson("demo_json.json", { title: "New Title" });
 ```
 
 ### Edita o JSON atual do arquivo
 
 ```js
-manageFile.editJson('demo_json.json', json => {
-    json.title = json.title.toUpperCase()
+manageFile.editJson("demo_json.json", (json) => {
+  json.title = json.title.toUpperCase();
 
-    return json
-})
+  return json;
+});
 ```
 
 ---
@@ -125,10 +125,10 @@ manageFile.editJson('demo_json.json', json => {
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
